@@ -1,4 +1,4 @@
-# DhtmlxGantt Chart with PHP
+# DhtmlxGantt Chart with Phalcon PHP
 
 * https://docs.dhtmlx.com/gantt/desktop__howtostart_php_slim4.html
 * https://docs.dhtmlx.com/gantt/desktop__howtostart_php_slim4.html#step4loadingdata
