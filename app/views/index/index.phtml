@@ -1,0 +1,24 @@
+<div id="gantt_here" style='width:100%; height:100%;'></div>
+
+<script type="text/javascript">
+// Popup Message
+// gantt.message({
+//     text: "Demo Message",
+//     expire: -1
+// });
+
+// Set Datetime Formate
+gantt.config.xml_date = "%Y-%m-%d %H:%i:%s";
+
+// Element ID
+gantt.init("gantt_here");
+
+// REST API
+
+var uri = "<?php echo $this->url->get('api/gantt/data'); ?>";
+gantt.load(uri);
+var dp = gantt.createDataProcessor({
+    url: uri,
+    mode: "REST"
+});
+</script>
