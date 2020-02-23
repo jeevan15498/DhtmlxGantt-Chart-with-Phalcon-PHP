@@ -85,3 +85,5 @@ INSERT INTO `gantt_tasks` VALUES ('6', 'Task #1.2', '2020-04-03 13:22:17','2', '
 INSERT INTO `gantt_tasks` VALUES ('7', 'Task #2.1', '2020-04-04 00:00:00''3', '0.2', '3');
 INSERT INTO `gantt_tasks` VALUES ('8', 'Task #2.2', '2020-04-05 00:00:00','2', '0.9', '3');
 ```
+
+# [Setup](Step_up.md)
